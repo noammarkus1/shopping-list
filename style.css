@@ -74,6 +74,12 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+#error {
+  margin: 16px 0 0;
+  color: var(--danger);
+  font-size: 15px;
+}
+
 #summary {
   margin: 20px 0 8px;
   color: var(--muted);

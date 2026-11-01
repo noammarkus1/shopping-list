@@ -16,11 +16,13 @@
       <button type="submit">הוספה</button>
     </form>
 
-    <p id="summary" aria-live="polite"></p>
+    <p id="error" role="alert" hidden></p>
+    <p id="summary" aria-live="polite">טוען את הרשימה…</p>
     <ul id="list"></ul>
-    <p id="empty">הרשימה ריקה. אפשר להוסיף את הפריט הראשון למעלה.</p>
+    <p id="empty" hidden>הרשימה ריקה. אפשר להוסיף את הפריט הראשון למעלה.</p>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
