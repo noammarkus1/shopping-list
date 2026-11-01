@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>רשימת קניות</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>רשימת קניות</h1>
+
+    <form id="add-form">
+      <label class="visually-hidden" for="new-item">פריט חדש</label>
+      <input id="new-item" type="text" placeholder="מה צריך לקנות?" autocomplete="off" maxlength="80">
+      <button type="submit">הוספה</button>
+    </form>
+
+    <p id="summary" aria-live="polite"></p>
+    <ul id="list"></ul>
+    <p id="empty">הרשימה ריקה. אפשר להוסיף את הפריט הראשון למעלה.</p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
